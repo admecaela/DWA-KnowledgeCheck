@@ -1,0 +1,95 @@
+html{
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color:#424250;
+    color:#fff;
+    font-family:'Courier New', Courier, monospace;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    text-align: center;
+}
+
+.header__title{
+    font-size: 3rem;
+    color:#ffffff8c;
+}
+
+
+
+.counter{
+    background-color: #33333d;
+}
+
+.counter__value{
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 6rem;
+    font-weight: 900;
+    background: none;
+    color:#ffffff8c;
+    border-width: 0;
+    border-bottom: 1px solid #d2d6dc;
+}
+
+.counter__button{
+    background: none;
+    width: 50%;
+    border-width: 0;
+    color:#fff;
+    border-bottom:1px solid #d2d6dc;
+    transition: transform 0.3s;
+    transform: translateY(0);
+}
+
+.counter__actions{
+    display: flex;
+}
+
+.counter__button_first{
+    border-right: 1px solid #d2d6dc;
+}
+
+.counter__button:active{
+    background:#424250;
+    transform: translateY(2%);
+}
+
+.counter__button:disabled{
+    opacity: 0.2;
+}
+
+.reset{
+    width: 100%;
+}
+
+.reset-overlay{
+    text-align: center;
+    color: #33333d;
+}
+
+footer{
+    text-align: center;
+    line-height: 1.5rem;
+    background: #33333d;
+    color:#d2d6dc;
+    align-self: flex-end;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.footer__text{
+    color:#ffffff8c;
+}
